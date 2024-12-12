@@ -1,0 +1,40 @@
+.lenta {
+    display: flex;
+    color: #D6D0FB;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-top: 1px solid #1C1C21;
+    border-bottom: 1px solid #1C1C21;
+    height: 80px;
+    overflow: hidden;
+}
+
+.lenta div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+
+}
+
+
+@media(max-width: 1440px) {
+    .lenta {
+        gap: 16px;
+        font-size: 14px;
+        height: 62px;
+    }
+    .lenta div {
+        gap: 6px;
+    }
+}
+
+
+@media(max-width: 1300px)  {
+.lenta div img {
+    width: 30px;
+}
+}

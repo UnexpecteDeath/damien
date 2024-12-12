@@ -1,0 +1,203 @@
+.article {
+width: stretch;
+border-top: 1px solid #1C1C21;
+height: 328px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 43px;
+position: relative;
+padding: 0 162px;
+}
+
+.centerImage  {
+    position: absolute;
+    inset: 0;
+    width: 346px;
+    height: 328px;
+    margin: auto;
+}
+
+.leftCont {
+    color: #62646C;
+    font-size: 22px;
+}
+
+.text {
+    font-size: 80px;
+    line-height: 109px;
+}
+
+.rightCont {
+    font-size: 58px;
+    line-height: 79px;
+}
+
+.rightCont button {
+    width: 130px;
+    height: 66px;
+    background-color: #4A2CED;
+    border-radius: 100px;
+    border: none;
+}
+
+.rightCont button:hover {
+    background-color: #492cedde;
+}
+
+.contBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightCont button img {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    padding: 0 162px;
+}
+
+@media(max-width: 1820px) {
+    .leftCont {
+        max-width: 500px;
+    }
+}
+
+@media(max-width: 1640px) {
+    .rightCont {
+        max-width: 401px;
+    }
+.centerImage  {
+    width: 306px;
+    height: 326px;
+}
+.imgContainer img {
+    width: 1280px;
+}
+}
+
+@media(max-width: 1440px) {
+.article {
+    padding: 0  80px;
+}
+.centerImage  {
+    width: 262px;
+    height: 262px;
+}
+.leftCont {
+    max-width: 436px;
+    font-size: 18px;
+}
+.text {
+    font-size: 60px;
+    line-height: 82px;
+}
+.rightCont {
+    font-size: 48px;
+    line-height: 66px;
+}
+.rightCont button {
+    width: 104px;
+    height: 56px;
+}
+.rightCont button img {
+    width: 24px;
+    height: 24px;
+}
+.imgContainer {
+    padding: 0 80px;
+}
+
+}
+
+@media(max-width: 1300px)  {
+    .leftCont {
+        max-width: 436px;
+        font-size: 14px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .rightCont {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .rightCont button {
+        width: 80px;
+        height: 48px;
+    }
+.rightCont button img {
+    width: 20px;
+    height: 20px;
+}
+.lenta div img {
+    width: 30px;
+}
+.imgContainer img {
+    width: 1120px;
+}
+}
+
+@media(max-width: 1120px) {
+    .imgContainer img {
+        width: 960px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .centerImage  {
+        display: none;
+    }
+    .imgContainer img {
+        width: 1120px;
+    }
+    .imgContainer img {
+        width: 800px;
+    }
+}
+
+@media(max-width: 900px) {
+    .article {
+        flex-wrap: wrap;
+    }
+
+    .article {
+        padding: 0 16px;
+    }
+    .imgContainer img {
+        width: 768px;
+    }
+}
+
+@media(max-width: 770px) {
+    .imgContainer img {
+        width: 608px;
+    }
+}
+
+@media(max-width: 640px) {
+    .imgContainer img {
+        width: 508px;
+    }
+}
+
+@media(max-width: 540px) {
+    .imgContainer img {
+        width: 458px;
+    }
+}
+
+@media(max-width: 460px) {
+    .imgContainer img {
+        width: 358px;
+    }
+}

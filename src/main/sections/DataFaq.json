@@ -1,0 +1,30 @@
+[
+  {
+    "question": "What type of photography do you specialize in?",
+    "answer": "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories."
+  },
+  {
+    "question": "How can I book a photography session with you?",
+    "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestiae corrupti maxime saepe sapiente soluta. Pariatur illo nemo minus perferendis!"
+  },
+  {
+    "question": "What equipment do you use for your photography?",
+    "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique debitis a."
+  },
+  { "question": "Can I request a specific location for a ",
+    "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perspiciatis unde ut harum quibusdam maxime, maiores architecto dignissimos temporibus iste quisquam quidem facere, repellendus odio exercitationem. Corporis deleniti dolor accusamus assumenda nam perspiciatis dolores, quod eveniet exercitationem minus aperiam delectus?" },
+  { "question": "What is your editing process like?",
+    "answer": "lorem" },
+  {
+    "question": "Are digital files included in your photography packages?",
+    "answer": "lorem"
+  },
+  {
+    "question": "Do you offer prints of your photographs?",
+    "answer": "Yes, prints are available for purchase. Explore the Prints section for more details on sizes and pricing."
+  },
+  {
+    "question": "How long does it take to receive the edited photos after a session?",
+    "answer": "lorem"
+  }
+]

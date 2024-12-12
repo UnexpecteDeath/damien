@@ -1,0 +1,725 @@
+.header, .header2, .header3, .headerFaq {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 58px;
+  height: 160px;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #1c1c21;
+  text-transform: uppercase;
+}
+
+.header2 {
+  height: 255px;
+}
+
+.total {
+  margin-top: 20px;
+  text-transform: lowercase;
+}
+
+.countCom {
+  font-size: 28px;
+  font-weight: 500;
+  color: #CACACE;
+}
+
+.about {
+  color: #797c86;
+  font-size: 20px;
+}
+
+.sectionBtn,
+.sectionBtn2,
+.sectionBtn3,
+.sectionBtn3_1,
+.sectionBtn3_2 {
+  width: 163px;
+  height: 59px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #1c1c21;
+  border-radius: 10px;
+  border: none;
+  margin-top: 25px;
+}
+
+.sectionBtn2 {
+  width: 210px;
+}
+.sectionBtn3,
+.sectionBtn3_2 {
+  width: 245px;
+}
+
+.sectionBtn3, .sectionBtn2, .sectionBtn3_2, .sectionBtn3_1 {
+  margin-top: 0;
+}
+
+
+.mainSectionFaq {
+  color: #AFB0B6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+}
+
+.mainSectionFaq details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.answer {
+  text-transform: lowercase;
+  font-size: 18px;
+  color: #797C86;
+}
+
+.mainSectionFaq details summary {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+.mainSectionFaq details summary::after {
+  content: '^';
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+
+.mainSectionFaq details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.mainSection {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mainSection2, .mainSection3 {
+  display: flex;
+  gap: 50px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.mainSectionContTop {
+  margin: 49px 0;
+  border-radius: 20px;
+}
+
+.mainSectionContTop2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.headerMainSection,
+.footerMainSection,
+.headerMainSection2,
+.footerMainSection2 {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #afb0b6;
+  font-weight: 400;
+  border-bottom: 1px solid #1c1c21;
+}
+
+.headerMainSection2,
+.footerMainSection2 {
+  border-bottom: none;
+  padding: 0;
+}
+
+.footerMainSection {
+  gap: 40px;
+}
+
+.logoMainParam {
+  font-size: 30px;
+  font-weight: 500;
+  color: #cacace;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoMainParam2 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #797c86;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contacts div {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #e4e4e6;
+}
+
+.req {
+  color: #afb0b6;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btnCont,
+.btnContHeader,
+.btnContHeader2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btnContHeader,
+.btnContHeader2 {
+  gap: 30px;
+  align-items: center;
+  height: 82px;
+}
+
+.btnContHeader2 {
+  margin-top: 120px;
+}
+
+.btnContHeader div,
+.btnContHeader2 div {
+  width: 160px;
+  height: 82px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btnContSocNav {
+  width: 196px;
+  height: 68px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+
+.btnContSocNav button,
+.btnContHeader div button,
+.btnContHeader2 div button {
+  width: 48px;
+  height: 48px;
+  background-color: #1c1c21;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContHeader div button,
+.btnContHeader2 div button {
+  width: 62px;
+  height: 62px;
+}
+
+.btnContSocNav button img,
+.btnContHeader div button img,
+.btnContHeader2 div button img {
+  background-color: transparent;
+}
+
+.otherBtnCont {
+  display: flex;
+  gap: 20px;
+}
+
+.otherBtnCont button {
+  background-color: #1c1c21;
+  width: 213px;
+  height: 63px;
+  border-radius: 10px;
+  border: 1px solid #2f2f37;
+  color: #ffffff;
+}
+
+.eventsBtn {
+  width: 130px;
+  height: 66px;
+  background-color: #4a2ced;
+  border-radius: 100px;
+  border: none;
+}
+
+.eventsBtn:hover {
+  background-color: #492cedd7;
+}
+
+.eventsBtn img {
+  background-color: transparent;
+}
+
+.NameMainParam {
+  color: #cacace;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.services div {
+  text-transform: uppercase;
+  color: #afb0b6;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+
+.sectionBtn:hover,
+.sectionBtn2:hover,
+.sectionBtn3:hover,
+.sectionBtn3_2:hover,
+.sectionBtn3_1:hover,
+.btnContSocNav button:hover,
+.otherBtnCont button:hover,
+.btnContHeader div button:hover,
+.btnContHeader2 div button:hover {
+  background-color: #1c1c21c9;
+}
+
+.mainSectionFaq details,
+.mainSectionFaq details summary::after,
+.mainSectionContTop,
+.btnContHeader div,
+.btnContHeader2 div,
+.btnContSocNav,
+.services div,
+.comment {
+  border: 1px solid #1C1C21;
+}
+
+.total,
+.sectionBtn,
+.sectionBtn2,
+.sectionBtn3,
+.sectionBtn3_2,
+.sectionBtn3_1,
+.headerMainSection,
+.footerMainSection,
+.headerMainSection2,
+.footerMainSection2,
+.contacts div,
+.otherBtnCont button,
+.NameMainParam,
+.services div,
+.addresCom {
+  font-size: 18px;
+}
+
+.comHolder {
+  gap: 30px;
+  display: flex;
+  transition: transform .5s ease;
+}
+
+.comment {
+  min-width: calc(510px - 80px);
+  height: calc(332px - 80px);
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #E4E4E6;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.addresCom, .total  {
+  color: #62646C;
+  font-weight: 400;
+}
+
+.comment, .comment p, .rate, .rate img  {
+  background-color: #0E0E10;
+}
+
+.rate {
+  display: flex;
+  gap: 5px;
+}
+
+.headerCom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.cardholder {
+  display: flex;
+  gap: 50px;
+  transition: transform 0.5s ease;
+}
+
+.question {
+  width: 80%;
+}
+
+.sectionBtn3_2,  .sectionBtn3_1 {
+  display: none;
+}
+
+.visible {
+  display: none;
+}
+
+.noMargin {
+  margin-top: 0;
+}
+@media (max-width: 1440px) {
+  .header, .header3, .headerFaq, .header2 {
+    font-size: 48px;
+    height: 130px;
+    margin-bottom: 60px;
+  }
+  .header2 {
+    height: 206px;
+  }
+  .total {
+    font-size: 16px;
+  }
+  .countCom {
+    font-size: 24px;
+  }
+  .btnContHeader {
+    gap: 20px;
+    height: 64px;
+  }
+  .btnContHeader2 {
+    margin-top: 100px;
+  }
+  .mainSection2 {
+    gap: 40px;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .mainSection3 {
+    gap: 30px;
+  }
+  .services div {
+    padding: 16px 18px;
+  }
+  .about, .services div, .NameMainParam, .answer {
+    font-size: 16px;
+  }
+  .btnContHeader div, .btnContHeader2 div{
+    width: 124px;
+    height: 64px;
+    gap: 12px;
+  }
+  .btnContHeader div button {
+    width: 48px;
+    height: 48px;
+  }
+  .btnContHeader div button img {
+    width: 28px;
+  }
+  .sectionBtn {
+    width: 130px;
+    height: 49px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .imageSection {
+    width: 630px;
+  }
+  .logoMainParam img {
+    width: 30px;
+  }
+  .logoMainParam {
+    gap: 6px;
+    font-size: 24px;
+  }
+  .headerMainSection,
+  .footerMainSection,
+  .headerMainSection2,
+  .footerMainSection2 {
+    padding: 30px;
+    gap: 16px;
+    font-size: 16px;
+  }
+  .headerMainSection2,
+  .footerMainSection2 {
+    padding: 0;
+  }
+  .star {
+    width: 30px;
+  }
+  .contacts div {
+    width: 277px;
+    gap: 6px;
+    font-size: 16px;
+  }
+  .req {
+    font-size: 18px;
+  }
+  .contacts {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .btnCont {
+    flex-wrap: wrap;
+  }
+  .otherBtnCont {
+    gap: 16px;
+  }
+  .btnContSocNav {
+    width: 146px;
+    height: 52px;
+    gap: 8px;
+  }
+  .btnContSocNav button {
+    width: 40px;
+    height: 40px;
+  }
+  .btnContSocNav button img {
+    width: 16px;
+  }
+  .otherBtnCont button {
+    background-color: #1c1c21;
+    font-size: 14px;
+    width: 174px;
+    height: 49px;
+  }
+  .mainSection {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+  .logoMainParam2 {
+    font-size: 34px;
+  }
+  .imageSection2 {
+    width: 620px;
+  }
+
+.mainSectionFaq details {
+  gap: 20px;
+  padding: 30px 40px;
+  font-size: 18px;
+}
+.mainSectionFaq details summary::after {
+  width: 40px;
+  height: 40px;
+}
+.comment {
+  min-width: calc(408px - 60px);
+  height: calc(263px - 60px);
+  border-radius: 10px;
+  padding: 30px;
+  gap: 24px;
+  font-size: 18px;
+}
+.comHolder {
+  gap: 20px;
+}
+.addresCom {
+  font-size: 16px;
+}
+.sectionBtn3 {
+  width: 193px;
+  height: 49px;
+  font-size: 14px;
+}
+.cardholder {
+  gap: 30px;
+}
+.noMargin {
+  margin-top: 0;
+}
+}
+
+
+@media (max-width: 1200px) {
+  .imageSection {
+    width: 630px;
+  }
+  .mainSection {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header3 {
+    flex-wrap: wrap;
+    height: 180px;
+    gap: 20px;
+  }
+  .normal {
+    justify-content: start;
+  }
+}
+
+
+@media (max-width: 670px) {
+  .header3, .header2 {
+    height: 184px;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .header2 {
+    height: 219px;
+  }
+  .imageSection, .imageSection2 {
+    width: 430px;
+  }
+  .header, .headerFaq {
+    font-size: 28px;
+    height: 146px;
+
+    display: block;
+  }
+  .headerFaq {
+    height: 115px;
+    margin-bottom: 0px;
+  };
+  .about {
+    font-size: 14px;
+  }
+  .logoMainParam img {
+    width: 24px;
+  }
+  .logoMainParam {
+    gap: 4px;
+    font-size: 20px;
+  }
+  .logoMainParam2 {
+    font-size: 28px;
+  }
+  .eventsBtn {
+    width: 80px;
+    height: 48px;
+  }
+  .eventsBtn img  {
+    width: 13px;
+  }
+.headerMainSection,
+.headerMainSection2,
+.footerMainSection2 {
+  padding: 24px;
+  gap: 12px;
+  font-size: 16px;
+}
+.headerMainSection2,
+.footerMainSection2 {
+  padding: 0;
+}
+
+.contacts {
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.btnCont {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.services div {
+  padding: 14px ;
+  font-size: 14px;
+}
+.mainSectionFaq {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: calc(148px * 4 - 22px);
+  overflow-y: hidden;
+}
+.mainSectionFaq details {
+  font-size: 16px;
+}
+.answer {
+  font-size: 14px;
+}
+.sectionBtn3_2 {
+  display: block;
+  margin: 20px 0;
+}
+.sectionBtn3_1 {
+  display: block;
+  width: 149px;
+  height: 49px;
+  font-size: 14px;
+}
+.btnContHeader2 {
+  display: none;
+}
+.visible {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.visible div button {
+  width: 48px;
+  height: 48px;
+}
+.visible div button img {
+  width: 28px;
+}
+}
+
+@media (max-width: 462px) {
+  .otherBtnCont {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .otherBtnCont button{
+    width: 310px;
+  }
+  .imageSection, .imageSection2 {
+    width: 358px;
+  }
+  .comment {
+    min-width: calc(356px - 48px);
+    height: calc(228px - 48px);
+    padding: 24px;
+    font-size: 16px;
+  }
+  .comHolder {
+    gap: 20px;
+  }
+  .addresCom {
+    font-size: 14px;
+  }
+}
